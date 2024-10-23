@@ -6,11 +6,13 @@ NEW PROJECT:
 
 Open terminal, navigate to the folder you'd like your project to live in.
 Create an app.py file in the directory.
-To set up virtual environment directory: 
+To set up virtual environment: 
 run the command python -m venv {enter enviornment name} to set up your virtual environment.
+To activate the virtual environment, cd into the new environment. Then run the command \Scripts\activate.
+Now return back to the projects main directory.
 Then, ctrl+shift+p and search for Python: Select interpreter.
 Select the virutal environment you created. Doing so will allow your IDE to automatically actiavate and use your venv
-To install any packages, use the command pip i {package name} in the terminal
+To install any packages, use the command pip install {package name} in the terminal
 
 To view any installed packages, run the command pip list
 
@@ -31,9 +33,8 @@ You can either create the repo on github, and paste the link, or you can create 
 
 EXISTING PROJECT:
 
-Once the project is pulled from github or another repository, create a virtual environment (above).
-You dont need to cd to into the environment to run the command.
-Run the command pip install -r requirements.txt. This installs the necessary packages (remember when we generated one of these files above)
+Once the project is pulled from github or another repository, create a virtual environment (above), activate it, and select the interpreter.
+Make sure you are back in the maindirectory, and install the required packages by running the command pip install -r requirements.txt (remember when we generated one of these files above).
 Create a branch in github, and change to your created branch (bottom left, probably says main or master to begin). 
 This way if you make any changes, they do not immediately change the main files until necessary.
 Once you make changes to files, youll see them appear on the source control on the left.
@@ -42,8 +43,10 @@ Once you are ready to push the changes, make sure they are selected, add a messa
 
 WHEN PUSHING CODE:
 
-Do NOT git push your created virtul environment folder
+Do NOT git push your created virtual environment folder
 Do not push any .env files
+
+You can create a .gitignore file to help manage these, I wont list out the steps but there are plenty of resources.
 
 
 
