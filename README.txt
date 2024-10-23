@@ -1,3 +1,6 @@
+This repo was created for a friend of mine in data analysis, in order for him to get him started with version control and python virtual environment management.
+
+
 NEW PROJECT:
 
 Open terminal
